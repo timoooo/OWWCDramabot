@@ -31,6 +31,14 @@ if(message.content=='penguin'){
       }, 2000);*/
     
 }
+    
+if(message.content=='timo'){
+    message.channel.sendMessage('plan-B Null | Timo#9266 likes it rough up the pooper');
+   /* var interval = setInterval (function (){
+        message.channel.sendMessage('Trash Memer lelelelelelelelel');
+        
+      }, 2000);*/
+    
 
 if(message.content=='eclipse'){
     message.channel.sendMessage(':thinking:');
