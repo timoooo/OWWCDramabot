@@ -1,9 +1,12 @@
 const Discord = require("discord.js");
+const fs = require('fs');
 const spambot = new Discord.Client();
-var CronJob = require('cron').CronJob;
+const bottoken = require('./bottoken.js');
+const CronJob = require('cron').CronJob;
+//so i dont have to keep the token in here
 
 
-let channelID = "trash_talk";
+
 
 spambot.on('message', (message)=>{
     
@@ -37,7 +40,7 @@ if(message.content=='eclipse'){
       }, 2000);*/
     
 }});
+//will be changed on release lelelelel
 
-
-spambot.login("Mzg0NDYwMjE1NDU1NzExMjMz.DPzwaQ.Ns3h9E50j5XXPargwGRDAelhADk");
+spambot.login(bottoken);
 
