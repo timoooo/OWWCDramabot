@@ -8,6 +8,8 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+//returns the token from git :^)
 bottoken.js
 # Runtime data
 pids

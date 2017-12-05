@@ -39,6 +39,7 @@ if(message.content=='timo'){
         
       }, 2000);*/
     
+    }
 
 if(message.content=='eclipse'){
     message.channel.sendMessage(':thinking:');
