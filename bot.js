@@ -40,7 +40,14 @@ if(message.content=='timo'){
       }, 2000);*/
     
     }
-
+    if(message.content=='sheep'){
+        message.channel.sendMessage('sheep is ein dummer yarak :CrowKappa:');
+       /* var interval = setInterval (function (){
+            message.channel.sendMessage('Trash Memer lelelelelelelelel');
+            
+          }, 2000);*/
+        
+        }
 if(message.content=='eclipse'){
     message.channel.sendMessage(':thinking:');
    /* var interval = setInterval (function (){
