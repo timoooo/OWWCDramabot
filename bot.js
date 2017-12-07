@@ -48,6 +48,14 @@ if(message.content=='timo'){
           }, 2000);*/
         
         }
+        if(message.content=='nerathon'){
+            message.channel.sendMessage('nerathon is retarded :rolling_eyes:');
+           /* var interval = setInterval (function (){
+                message.channel.sendMessage('Trash Memer lelelelelelelelel');
+                
+              }, 2000);*/
+            
+            }
 if(message.content=='eclipse'){
     message.channel.sendMessage(':thinking:');
    /* var interval = setInterval (function (){
